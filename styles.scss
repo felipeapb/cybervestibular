@@ -1,0 +1,101 @@
+$backgroundSite: #F7F3F2;
+$fontePadrao: 'Roboto', sans-serif !important ;
+
+body{
+  background: $backgroundSite !important;
+  font-family: $fontePadrao;
+}
+.slide, footer{
+  background: rgb(0,128,186); /* Old browsers */
+background: -moz-linear-gradient(left, rgba(0,128,186,1) 0%, rgba(1,166,222,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(0,128,186,1) 0%,rgba(1,166,222,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(0,128,186,1) 0%,rgba(1,166,222,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0080ba', endColorstr='#01a6de',GradientType=1 ); /* IE6-9 */
+}
+.h2_destaque{
+  color:#fff;
+  height: 35px;
+  margin-left: 25px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  line-height: 35px;
+  padding: 0 5px;
+  font-size: 1.1rem;
+  background: -moz-linear-gradient(left, rgba(0,130,175,1) 0%, rgba(31,145,185,1) 12%, rgba(146,201,221,0) 350px, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, rgba(0,130,175,1) 0%,rgba(31,145,185,1) 12%,rgba(146,201,221,0) 350px,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, rgba(0,130,175,1) 0%,rgba(31,145,185,1) 12%,rgba(146,201,221,0) 350px,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0082af', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
+   &:before {
+    content: "";
+    position:absolute;
+    height: 35px;
+    width: 15px;
+    background: rgba(0,130,175,1);
+    margin-left: -30px;
+    
+}
+
+}
+.porEstados{ 
+
+    background-color: #FF7D0B;
+    display: block; 
+    padding: 0 5px; 
+    line-height: 30px; 
+    height: 30px; 
+    margin-top: 3px;
+    color:#fff;
+    position: relative;
+    margin-right: 40px;
+    &::before{
+      content: '';
+      content: '';
+      width: 0;
+      height: 0;
+      border-top: 15px solid transparent;
+      border-left: 20px solid #FF7D0B;
+      border-bottom: 15px solid transparent;
+      left: 77px;
+      position: absolute;
+ 
+    }
+}
+.grupoEstados{ display: flex; font-size: 14px;}
+.caixaestado{
+  padding:3px;
+  background-color: #fff;
+  margin:  3px;
+  min-width: 31px;
+  text-align: center;
+  color:#FF7D0B;
+  font-weight: 600;
+  cursor:pointer;
+
+  &:hover{
+    background: #FF7D0B;
+    color:#fff;
+    transition: 0.5s;
+  }
+}
+
+.destaques_cartao {
+  
+  flex-direction: row !important;
+  align-items: center;
+  img{ 
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+  }
+}
+.menucaixa{
+  width: 90px;
+  height: 90px;
+  text-align: center;
+  margin: 0 10px;
+  cursor: pointer;
+}
+.menusuperior{
+  display:flex;
+  flex-direction: row;
+}
