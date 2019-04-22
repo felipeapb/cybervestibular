@@ -4,7 +4,22 @@ $fontePadrao: 'Roboto', sans-serif !important ;
 body{
   background: $backgroundSite !important;
   font-family: $fontePadrao;
-}
+  font-size: 12.8px !important;
+  color:#817D7E !important;
+  a{
+    color: #005FAA !important; 
+    font-size: 1.1rem !important;
+    &:hover{
+      color:#029ABF !important; 
+      text-decoration:none !important; 
+
+    }
+  }
+ }
+   .logo{
+    margin:20px 10px;
+  }
+ .topo{ background-color: #fff !important;}
 .slide, footer{
   background: rgb(0,128,186); /* Old browsers */
 background: -moz-linear-gradient(left, rgba(0,128,186,1) 0%, rgba(1,166,222,1) 100%); /* FF3.6-15 */
@@ -12,6 +27,18 @@ background: -webkit-linear-gradient(left, rgba(0,128,186,1) 0%,rgba(1,166,222,1)
 background: linear-gradient(to right, rgba(0,128,186,1) 0%,rgba(1,166,222,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0080ba', endColorstr='#01a6de',GradientType=1 ); /* IE6-9 */
 }
+.imgSlide{ float:right}
+.textSlide{
+  text-align:left;
+  top:110px !important;
+  h3{ 
+    font-size:2.8rem
+  }
+  p{
+    font-size:1.2rem;
+  }
+}
+
 .h2_destaque{
   color:#fff;
   height: 35px;
@@ -82,10 +109,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0080ba', end
   
   flex-direction: row !important;
   align-items: center;
+  margin-bottom: 15px;
   img{ 
     width: 120px;
     height: 120px;
-    margin: 10px;
+    margin-right: 10px;
   }
 }
 .menucaixa{
@@ -98,4 +126,25 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0080ba', end
 .menusuperior{
   display:flex;
   flex-direction: row;
+}
+.body_destaque{ padding:0 !important;}
+.itemProva{
+  background: #fff !important;
+  border-left: #DCB53C 14px solid !important;
+  margin-bottom: 10px !important;
+  padding: 2px 5px;
+  a{
+    color:#767676 !important;
+    font-size: 1rem !important;
+  }
+
+
+}
+@media screen and (max-width: 480px) {
+
+  .grupoEstados{ 	flex-wrap: wrap;
+}
+.imgSlide{ 
+visibility:hidden
+}
 }

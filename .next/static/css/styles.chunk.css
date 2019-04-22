@@ -1,6 +1,20 @@
 body {
   background: #F7F3F2 !important;
-  font-family: "Roboto", sans-serif !important; }
+  font-family: "Roboto", sans-serif !important;
+  font-size: 12.8px !important;
+  color: #817D7E !important; }
+  body a {
+    color: #005FAA !important;
+    font-size: 1.1rem !important; }
+    body a:hover {
+      color: #029ABF !important;
+      text-decoration: none !important; }
+
+._3rAg6AIwaAMIhQtHncqlRG {
+  margin: 20px 10px; }
+
+._12qT2Fx8cs0DVRA1YsqCyr {
+  background-color: #fff !important; }
 
 ._3QFUROdtl2dYpwf7t75Df5, footer {
   background: #0080ba;
@@ -13,6 +27,17 @@ body {
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0080ba', endColorstr='#01a6de',GradientType=1 );
   /* IE6-9 */ }
+
+._1CdF7xg3NymdUWtM6Fa-U- {
+  float: right; }
+
+._1Qxk_Ykw-y_Mt9VOgRLlJO {
+  text-align: left;
+  top: 110px !important; }
+  ._1Qxk_Ykw-y_Mt9VOgRLlJO h3 {
+    font-size: 2.8rem; }
+  ._1Qxk_Ykw-y_Mt9VOgRLlJO p {
+    font-size: 1.2rem; }
 
 ._2Gptmgtn2wLYeOtW2Lao4_ {
   color: #fff;
@@ -82,11 +107,12 @@ body {
 
 ._1Gz35NOjSPtDNdbCtxhYqc {
   flex-direction: row !important;
-  align-items: center; }
+  align-items: center;
+  margin-bottom: 15px; }
   ._1Gz35NOjSPtDNdbCtxhYqc img {
     width: 120px;
     height: 120px;
-    margin: 10px; }
+    margin-right: 10px; }
 
 ._2-e20iTUom9lk37uPhzrTs {
   width: 90px;
@@ -98,6 +124,24 @@ body {
 ._13MX1e2MiwZU_LoOc7k5c6 {
   display: flex;
   flex-direction: row; }
+
+._1kd5zA7945xMb5WxD3Mm0J {
+  padding: 0 !important; }
+
+._1HNpHt0VuTHxsfYuwqp8HI {
+  background: #fff !important;
+  border-left: #DCB53C 14px solid !important;
+  margin-bottom: 10px !important;
+  padding: 2px 5px; }
+  ._1HNpHt0VuTHxsfYuwqp8HI a {
+    color: #767676 !important;
+    font-size: 1rem !important; }
+
+@media screen and (max-width: 480px) {
+  ._24fLHaf_HqV34hf1MTjHvv {
+    flex-wrap: wrap; }
+  ._1CdF7xg3NymdUWtM6Fa-U- {
+    visibility: hidden; } }
 
 
 /*# sourceMappingURL=styles.chunk.css.map*/

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Menu from "./menu";
+import css from "../../../styles.scss"
 
 import { Container,Row, Col } from 'react-bootstrap';
 
@@ -10,11 +11,11 @@ class Topo  extends Component {
     }
     render() { 
         return (
-        <header>
+        <header className={css.topo}>
             <Container>
             <Row>
-                <Col sm={12} lg={3}> Logo </Col>
-                <Col sm={12} lg={9}><Menu/></Col>                
+                <Col sm={12} lg={4}> <img className={css.logo} src="/static/img/logo.png" alt="CyberVestibular" /> </Col>
+                <Col sm={12} lg={8}><Menu/></Col>                
             </Row>
             </Container>
         </header>

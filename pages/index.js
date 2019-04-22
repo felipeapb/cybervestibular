@@ -9,6 +9,7 @@ import Material from "./elementos/material/material"
 import Rodape from "./elementos/rodape/rodape"
 import Noticias from "./elementos/noticias/noticias"
 import fragment from "react-dom"
+import Head from "./elementos/head/head"
 
 
 class index  extends Component {
@@ -19,12 +20,10 @@ class index  extends Component {
     render() { 
         return (  
         <fragment >
-                <link
-        rel="stylesheet"
-        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-        crossorigin="anonymous"
-      />
+            <Head 
+                siteNome="CyberVestibular - O seu portal sobre vestibular"
+                descricao="Um novo portal de vestibular"
+            />
               <Topo/>
               <Slide />
               <Estados/>
@@ -33,7 +32,7 @@ class index  extends Component {
               <Anuncios/>
               <Material/>
               <Rodape/>
-        </fragment>);
+        </fragment>)
     }
 }
  export default index;

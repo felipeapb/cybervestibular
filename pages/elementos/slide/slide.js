@@ -13,49 +13,19 @@ class Topo  extends Component {
          <Container>
 <Carousel>
   <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src="http://jpcamara.com/wp-content/uploads/2015/02/carousel.jpg"
-      alt="First slide"
-    />
-    <Carousel.Caption>
-      <h3>First slide label</h3>
+
+    <Carousel.Caption className={css.textSlide}>
+      <h3>Enem Inicia inscrições</h3>
       <p>Nulla vitae elit libero, a pharetraz augue mollis interdum.</p>
     </Carousel.Caption>
-  </Carousel.Item>
-  <Carousel.Item>
-  <img
-      className="d-block w-100"
-      src="http://jpcamara.com/wp-content/uploads/2015/02/carousel.jpg"
-      alt="First slide"
-    />
-    <Carousel.Caption>
-      <h3>First slide label</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-    </Carousel.Caption>
-  </Carousel.Item>
-  <Carousel.Item>
     <img
-      className="d-block w-100"
-      src="http://jpcamara.com/wp-content/uploads/2015/02/carousel.jpg"
+      className={css.imgSlide}
+      src="/static/img/moca.png"
       alt="First slide"
     />
-    <Carousel.Caption>
-      <h3>First slide label</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-    </Carousel.Caption>
   </Carousel.Item>
-  <Carousel.Item>
-  <img
-      className="d-block w-100"
-      src="http://jpcamara.com/wp-content/uploads/2015/02/carousel.jpg"
-      alt="First slide"
-    />
-    <Carousel.Caption>
-      <h3>First slide label</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-    </Carousel.Caption>
-  </Carousel.Item>
+
+  
 </Carousel>
 </Container>
 </section>
