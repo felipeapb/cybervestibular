@@ -46,7 +46,7 @@ class Estados  extends Component {
                          {
                              estadosdoBrasil.map(
                                  item=>(
-                                     <Siglas siglas={item.sigla}></Siglas>            )
+                                     <Siglas key={item.sigla} siglas={item.sigla}></Siglas>            )
                              )
                          }
                          </div>

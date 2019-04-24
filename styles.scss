@@ -38,7 +38,51 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0080ba', end
     font-size:1.2rem;
   }
 }
+.busca_cursos{
+  span{
+display:block;
+margin-bottom:10px;
+  }
+}
+.h2_destaque_cursos{
+  color:#fff;
+  height: 35px;
+  margin-left: 25px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  line-height: 35px;
+  padding: 0 5px;
+  font-size: 1.1rem;
+  background: -moz-linear-gradient(left, rgba(0,130,175,1) 0%, rgba(31,145,185,1) 12%, rgba(146,201,221,0) 350px, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, rgba(0,130,175,1) 0%,rgba(31,145,185,1) 12%,rgba(146,201,221,0) 350px,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, rgba(0,130,175,1) 0%,rgba(31,145,185,1) 12%,rgba(146,201,221,0) 350px,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0082af', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
+   &:before {
+    content: "";
+    position:absolute;
+    height: 35px;
+    width: 15px;
+    background: rgba(0,130,175,1);
+    margin-left: -30px;
+    
+}
 
+}
+.topologado{
+  margin:10px 0;
+  border-top:1px solid #E1E3E5;
+border-bottom:1px solid #E1E3E5;
+background:#fff;
+}
+.inputbuscacursos{
+    border: 1px solid #e9e9e8;
+    height:35px;
+    width:100% !important;
+    padding:0 5px;
+    line-height:35px;
+    border-radius:5px;
+    color:#0081AF
+}
 .h2_destaque{
   color:#fff;
   height: 35px;
@@ -120,8 +164,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0080ba', end
   width: 90px;
   height: 90px;
   text-align: center;
-  margin: 0 10px;
+  margin: 20px 0px ;
   cursor: pointer;
+  background: rgb(200,200,200); /* Old browsers */
+  padding:20px 10px;
+  color:#fff;
+  text-transform:uppercase;
+  box-sizing: border-box;
+  font-size:0.6rem;
+  text-align:center;
+  
+  i{
+    display:block;
+     color:#fff;
+     font-size:2.2rem;
+     margin-bottom:10px;
+  }
 }
 .menusuperior{
   display:flex;
@@ -141,10 +199,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0080ba', end
 
 }
 @media screen and (max-width: 480px) {
-
   .grupoEstados{ 	flex-wrap: wrap;
 }
 .imgSlide{ 
 visibility:hidden
 }
 }
+.rodape{
+  margin-top:20px;
+}
+// #### menu cor #####
+
+
+

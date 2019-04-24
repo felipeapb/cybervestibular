@@ -115991,13 +115991,13 @@ function (_Component) {
         "data-ad-slot": "1429160537",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 8
+          lineNumber: 9
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("script", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 11
+          lineNumber: 12
         },
         __self: this
       }, "(adsbygoogle = window.adsbygoogle || []).push(", ");"));
@@ -116008,6 +116008,125 @@ function (_Component) {
 }(react__WEBPACK_IMPORTED_MODULE_7__["Component"]);
 
 /* harmony default export */ __webpack_exports__["default"] = (Anuncios);
+
+/***/ }),
+
+/***/ "./pages/elementos/autobusca/autobusca.js":
+/*!************************************************!*\
+  !*** ./pages/elementos/autobusca/autobusca.js ***!
+  \************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/es/index.js");
+/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../../styles.scss */ "./styles.scss");
+/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_styles_scss__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var faker__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! faker */ "./node_modules/faker/index.js");
+/* harmony import */ var faker__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(faker__WEBPACK_IMPORTED_MODULE_10__);
+
+
+
+
+
+
+
+var _jsxFileName = "D:\\sites\\vestibular\\pages\\elementos\\autobusca\\autobusca.js";
+
+
+
+
+faker__WEBPACK_IMPORTED_MODULE_10___default.a.locale = "pt_Br";
+
+var Autobusca =
+/*#__PURE__*/
+function (_Component) {
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__["default"])(Autobusca, _Component);
+
+  function Autobusca() {
+    var _getPrototypeOf2;
+
+    var _this;
+
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Autobusca);
+
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, (_getPrototypeOf2 = Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Autobusca)).call.apply(_getPrototypeOf2, [this].concat(args)));
+
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "state", {
+      curso: null
+    });
+
+    return _this;
+  }
+
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Autobusca, [{
+    key: "render",
+    value: function render() {
+      var _this2 = this;
+
+      return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("section", {
+        className: _styles_scss__WEBPACK_IMPORTED_MODULE_9___default.a.busca_cursos,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 14
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h2", {
+        className: _styles_scss__WEBPACK_IMPORTED_MODULE_9___default.a.h2_destaque_cursos,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 15
+        },
+        __self: this
+      }, "BUSCA CURSOS"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("span", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 16
+        },
+        __self: this
+      }, "Encontre os principais cursos do pa\xEDs"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("input", {
+        placeholder: "Escolha seu curso",
+        className: _styles_scss__WEBPACK_IMPORTED_MODULE_9___default.a.inputbuscacursos,
+        value: this.state.curso,
+        onChange: function onChange(e) {
+          return _this2.setState({
+            curso: e.target.value
+          });
+        },
+        type: "text",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 17
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 18
+        },
+        __self: this
+      }, this.state.curso));
+    }
+  }]);
+
+  return Autobusca;
+}(react__WEBPACK_IMPORTED_MODULE_7__["Component"]);
+
+/* harmony default export */ __webpack_exports__["default"] = (Autobusca);
 
 /***/ }),
 
@@ -116412,6 +116531,7 @@ function (_Component) {
         __self: this
       }, "Por estado"), estadosdoBrasil.map(function (item) {
         return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_siglas__WEBPACK_IMPORTED_MODULE_10__["default"], {
+          key: item.sigla,
           siglas: item.sigla,
           __source: {
             fileName: _jsxFileName,
@@ -116515,13 +116635,7 @@ var _jsxFileName = "D:\\sites\\vestibular\\pages\\elementos\\head\\head.js";
 function IndexPage(_ref) {
   var siteNome = _ref.siteNome,
       descricao = _ref.descricao;
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
@@ -116546,7 +116660,7 @@ function IndexPage(_ref) {
     content: descricao,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 10
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
@@ -116554,7 +116668,25 @@ function IndexPage(_ref) {
     src: "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 13
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
+    href: "https://fonts.googleapis.com/css?family=Roboto:100,300,400,700",
+    rel: "stylesheet",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
+    rel: "stylesheet",
+    href: "https://use.fontawesome.com/releases/v5.8.1/css/all.css",
+    integrity: "sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf",
+    crossorigin: "anonymous",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
@@ -116564,10 +116696,10 @@ function IndexPage(_ref) {
     crossorigin: "anonymous",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 17
     },
     __self: this
-  })));
+  }));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (IndexPage);
@@ -116598,6 +116730,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../../styles.scss */ "./styles.scss");
 /* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_styles_scss__WEBPACK_IMPORTED_MODULE_10__);
 /* harmony import */ var _provas_provas__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./provas/provas */ "./pages/elementos/material/provas/provas.js");
+/* harmony import */ var _autobusca_autobusca__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./../autobusca/autobusca */ "./pages/elementos/autobusca/autobusca.js");
 
 
 
@@ -116606,6 +116739,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var _jsxFileName = "D:\\sites\\vestibular\\pages\\elementos\\material\\material.js";
+
 
 
 
@@ -116641,20 +116775,20 @@ function (_Component) {
       return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Container"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 10
+          lineNumber: 11
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h2", {
         className: _styles_scss__WEBPACK_IMPORTED_MODULE_10___default.a.h2_destaque,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 11
+          lineNumber: 12
         },
         __self: this
       }, "PARA ESTUDAR"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Row"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 12
+          lineNumber: 13
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Col"], {
@@ -116662,13 +116796,13 @@ function (_Component) {
         lg: 8,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 14
+          lineNumber: 15
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Row"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 15
+          lineNumber: 16
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Col"], {
@@ -116676,95 +116810,61 @@ function (_Component) {
         lg: 3,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 16
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Card"], {
-        __source: {
-          fileName: _jsxFileName,
           lineNumber: 17
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Card"].Img, {
-        st: true,
-        variant: "top",
-        src: "https://hp.imguol.com.br/c/home/11/2018/03/16/bernardinho-se-emociona-em-homenagem-a-bebeto-de-freitas-antes-de-sesc-x-pinheiros-pela-superliga-1521250626768_200x140.jpg",
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Card"], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 18
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Card"].Body, {
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Card"].Img, {
+        st: true,
+        variant: "top",
+        src: "https://hp.imguol.com.br/c/home/11/2018/03/16/bernardinho-se-emociona-em-homenagem-a-bebeto-de-freitas-antes-de-sesc-x-pinheiros-pela-superliga-1521250626768_200x140.jpg",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 19
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Card"].Title, {
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Card"].Body, {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 20
         },
         __self: this
-      }, "T\xE9cnica Pomodoro"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Card"].Text, {
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Card"].Title, {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 21
         },
         __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
+        href: "",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 21
+        },
+        __self: this
+      }, "T\xE9cnica Pomodoro")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Card"].Text, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 23
+        },
+        __self: this
       }, "Aumente sua produtividade nos estudos com a T\xE9cnica Pomodoro")))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Col"], {
         sm: 6,
         lg: 3,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 27
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Card"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 28
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Card"].Img, {
-        st: true,
-        variant: "top",
-        src: "https://hp.imguol.com.br/c/home/10/2018/11/11/hamilton-encontra-anitta-no-paddock-antes-do-gp-brasil-1541964353956_200x140.jpg",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 29
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Card"].Body, {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 30
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Card"].Title, {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 31
-        },
-        __self: this
-      }, "T\xE9cnica Pomodoro"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Card"].Text, {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 32
-        },
-        __self: this
-      }, "Aumente sua produtividade nos estudos com a T\xE9cnica Pomodoro")))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Col"], {
-        sm: 6,
-        lg: 3,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 38
-        },
-        __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Card"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 39
+          lineNumber: 30
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Card"].Img, {
@@ -116773,25 +116873,32 @@ function (_Component) {
         src: "https://hp.imguol.com.br/c/home/11/2018/03/16/bernardinho-se-emociona-em-homenagem-a-bebeto-de-freitas-antes-de-sesc-x-pinheiros-pela-superliga-1521250626768_200x140.jpg",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 40
+          lineNumber: 31
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Card"].Body, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 41
+          lineNumber: 32
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Card"].Title, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 42
+          lineNumber: 33
         },
         __self: this
-      }, "T\xE9cnica Pomodoro"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Card"].Text, {
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
+        href: "",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 43
+          lineNumber: 33
+        },
+        __self: this
+      }, "T\xE9cnica Pomodoro")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Card"].Text, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 35
         },
         __self: this
       }, "Aumente sua produtividade nos estudos com a T\xE9cnica Pomodoro")))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Col"], {
@@ -116799,46 +116906,101 @@ function (_Component) {
         lg: 3,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 49
+          lineNumber: 41
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Card"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 50
+          lineNumber: 42
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Card"].Img, {
         st: true,
         variant: "top",
-        src: "https://hp.imguol.com.br/c/home/10/2018/11/11/hamilton-encontra-anitta-no-paddock-antes-do-gp-brasil-1541964353956_200x140.jpg",
+        src: "https://hp.imguol.com.br/c/home/11/2018/03/16/bernardinho-se-emociona-em-homenagem-a-bebeto-de-freitas-antes-de-sesc-x-pinheiros-pela-superliga-1521250626768_200x140.jpg",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 51
+          lineNumber: 43
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Card"].Body, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 52
+          lineNumber: 44
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Card"].Title, {
         __source: {
           fileName: _jsxFileName,
+          lineNumber: 45
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
+        href: "",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 45
+        },
+        __self: this
+      }, "T\xE9cnica Pomodoro")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Card"].Text, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 47
+        },
+        __self: this
+      }, "Aumente sua produtividade nos estudos com a T\xE9cnica Pomodoro")))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Col"], {
+        sm: 6,
+        lg: 3,
+        __source: {
+          fileName: _jsxFileName,
           lineNumber: 53
         },
         __self: this
-      }, "T\xE9cnica Pomodoro"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Card"].Text, {
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Card"], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 54
         },
         __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Card"].Img, {
+        st: true,
+        variant: "top",
+        src: "https://hp.imguol.com.br/c/home/11/2018/03/16/bernardinho-se-emociona-em-homenagem-a-bebeto-de-freitas-antes-de-sesc-x-pinheiros-pela-superliga-1521250626768_200x140.jpg",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 55
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Card"].Body, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 56
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Card"].Title, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 57
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
+        href: "",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 57
+        },
+        __self: this
+      }, "T\xE9cnica Pomodoro")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Card"].Text, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 59
+        },
+        __self: this
       }, "Aumente sua produtividade nos estudos com a T\xE9cnica Pomodoro"))))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Row"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 62
+          lineNumber: 67
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Col"], {
@@ -116846,57 +117008,17 @@ function (_Component) {
         lg: 6,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 64
+          lineNumber: 69
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h2", {
         className: _styles_scss__WEBPACK_IMPORTED_MODULE_10___default.a.h2_destaque,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 65
-        },
-        __self: this
-      }, "PROVAS"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_provas_provas__WEBPACK_IMPORTED_MODULE_11__["default"], {
-        nome: "UFES",
-        url: "#",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 67
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_provas_provas__WEBPACK_IMPORTED_MODULE_11__["default"], {
-        nome: "UFES",
-        url: "#",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 68
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_provas_provas__WEBPACK_IMPORTED_MODULE_11__["default"], {
-        nome: "UFES",
-        url: "#",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 69
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_provas_provas__WEBPACK_IMPORTED_MODULE_11__["default"], {
-        nome: "UFES",
-        url: "#",
-        __source: {
-          fileName: _jsxFileName,
           lineNumber: 70
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_provas_provas__WEBPACK_IMPORTED_MODULE_11__["default"], {
-        nome: "UFES",
-        url: "#",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 71
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_provas_provas__WEBPACK_IMPORTED_MODULE_11__["default"], {
+      }, "PROVAS"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_provas_provas__WEBPACK_IMPORTED_MODULE_11__["default"], {
         nome: "UFES",
         url: "#",
         __source: {
@@ -116912,25 +117034,65 @@ function (_Component) {
           lineNumber: 73
         },
         __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_provas_provas__WEBPACK_IMPORTED_MODULE_11__["default"], {
+        nome: "UFES",
+        url: "#",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 74
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_provas_provas__WEBPACK_IMPORTED_MODULE_11__["default"], {
+        nome: "UFES",
+        url: "#",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 75
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_provas_provas__WEBPACK_IMPORTED_MODULE_11__["default"], {
+        nome: "UFES",
+        url: "#",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 76
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_provas_provas__WEBPACK_IMPORTED_MODULE_11__["default"], {
+        nome: "UFES",
+        url: "#",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 77
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_provas_provas__WEBPACK_IMPORTED_MODULE_11__["default"], {
+        nome: "UFES",
+        url: "#",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 78
+        },
+        __self: this
       })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Col"], {
         sm: 12,
         lg: 6,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 77
+          lineNumber: 82
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h2", {
         className: _styles_scss__WEBPACK_IMPORTED_MODULE_10___default.a.h2_destaque,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 78
+          lineNumber: 83
         },
         __self: this
       }, "PROFESSORES"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Row"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 79
+          lineNumber: 84
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Col"], {
@@ -116938,13 +117100,13 @@ function (_Component) {
         lg: 6,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 80
+          lineNumber: 85
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Card"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 81
+          lineNumber: 86
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Card"].Img, {
@@ -116953,25 +117115,25 @@ function (_Component) {
         src: "https://hp.imguol.com.br/c/home/07/2018/09/11/o-grande-circo-mistico-de-caca-diegues-foi-selecionado-para-disputar-uma-indicacao-ao-oscar-1536711612309_200x140.jpg",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 82
+          lineNumber: 87
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Card"].Body, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 83
+          lineNumber: 88
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Card"].Title, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 84
+          lineNumber: 89
         },
         __self: this
       }, "T\xE9cnica Pomodoro"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Card"].Text, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 85
+          lineNumber: 90
         },
         __self: this
       }, "Aumente sua produtividade nos estudos com a T\xE9cnica Pomodoro")))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Col"], {
@@ -116979,13 +117141,13 @@ function (_Component) {
         lg: 6,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 91
+          lineNumber: 96
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Card"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 92
+          lineNumber: 97
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Card"].Img, {
@@ -116994,25 +117156,25 @@ function (_Component) {
         src: "https://hp.imguol.com.br/c/home/07/2018/09/11/o-grande-circo-mistico-de-caca-diegues-foi-selecionado-para-disputar-uma-indicacao-ao-oscar-1536711612309_200x140.jpg",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 93
+          lineNumber: 98
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Card"].Body, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 94
+          lineNumber: 99
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Card"].Title, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 95
+          lineNumber: 100
         },
         __self: this
       }, "T\xE9cnica Pomodoro"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Card"].Text, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 96
+          lineNumber: 101
         },
         __self: this
       }, "Aumente sua produtividade nos estudos com a T\xE9cnica Pomodoro")))))))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Col"], {
@@ -117020,22 +117182,28 @@ function (_Component) {
         lg: 4,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 111
+          lineNumber: 116
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("ins", {
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_autobusca_autobusca__WEBPACK_IMPORTED_MODULE_12__["default"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 117
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("ins", {
         className: "adsbygoogle",
         "data-ad-client": "ca-pub-6710264445240599",
         "data-ad-slot": "7723994197",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 112
+          lineNumber: 118
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("script", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 115
+          lineNumber: 121
         },
         __self: this
       }, "(adsbygoogle = window.adsbygoogle || []).push(", ");"))));
@@ -117238,10 +117406,17 @@ function (_Component) {
           lineNumber: 20
         },
         __self: this
-      }, "T\xE9cnica Pomodoro"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Card"].Text, {
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
+        href: "",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 21
+          lineNumber: 20
+        },
+        __self: this
+      }, "T\xE9cnica Pomodoro")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Card"].Text, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 22
         },
         __self: this
       }, "Aumente sua produtividade nos estudos com a T\xE9cnica Pomodoro")))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Col"], {
@@ -117249,13 +117424,13 @@ function (_Component) {
         lg: 8,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 27
+          lineNumber: 28
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Row"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 28
+          lineNumber: 29
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Col"], {
@@ -117263,42 +117438,49 @@ function (_Component) {
         lg: 6,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 29
+          lineNumber: 30
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Card"], {
         className: _styles_scss__WEBPACK_IMPORTED_MODULE_9___default.a.destaques_cartao,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 30
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Card"].Img, {
-        st: true,
-        variant: "top",
-        src: "https://d1dh93s7n44ml6.cloudfront.net/blog/wp-content/uploads/2015/09/13062911/Pomodoro-Technique.png",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 31
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Card"].Body, {
-        className: _styles_scss__WEBPACK_IMPORTED_MODULE_9___default.a.body_destaque,
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Card"].Img, {
+        st: true,
+        variant: "top",
+        src: "https://d1dh93s7n44ml6.cloudfront.net/blog/wp-content/uploads/2015/09/13062911/Pomodoro-Technique.png",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 32
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Card"].Title, {
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Card"].Body, {
+        className: _styles_scss__WEBPACK_IMPORTED_MODULE_9___default.a.body_destaque,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 33
         },
         __self: this
-      }, "T\xE9cnica Pomodoro"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Card"].Text, {
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Card"].Title, {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 34
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
+        href: "",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 34
+        },
+        __self: this
+      }, "T\xE9cnica Pomodoro")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Card"].Text, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 35
         },
         __self: this
       }, "Aumente sua produtividade nos estudos com a T\xE9cnica Pomodoro")))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Col"], {
@@ -117306,14 +117488,14 @@ function (_Component) {
         lg: 6,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 40
+          lineNumber: 41
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Card"], {
         className: _styles_scss__WEBPACK_IMPORTED_MODULE_9___default.a.destaques_cartao,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 41
+          lineNumber: 42
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Card"].Img, {
@@ -117322,26 +117504,33 @@ function (_Component) {
         src: "https://d1dh93s7n44ml6.cloudfront.net/blog/wp-content/uploads/2015/09/13062911/Pomodoro-Technique.png",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 42
+          lineNumber: 43
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Card"].Body, {
         className: _styles_scss__WEBPACK_IMPORTED_MODULE_9___default.a.body_destaque,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 43
+          lineNumber: 44
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Card"].Title, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 44
+          lineNumber: 45
         },
         __self: this
-      }, "T\xE9cnica Pomodoro"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Card"].Text, {
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
+        href: "",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 45
+        },
+        __self: this
+      }, "T\xE9cnica Pomodoro")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Card"].Text, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 47
         },
         __self: this
       }, "Aumente sua produtividade nos estudos com a T\xE9cnica Pomodoro")))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Col"], {
@@ -117349,14 +117538,14 @@ function (_Component) {
         lg: 6,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 51
+          lineNumber: 53
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Card"], {
         className: _styles_scss__WEBPACK_IMPORTED_MODULE_9___default.a.destaques_cartao,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 52
+          lineNumber: 54
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Card"].Img, {
@@ -117365,26 +117554,33 @@ function (_Component) {
         src: "https://www.tomatotimers.com/IMAGE%20FILE/Infographic.svg",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 53
+          lineNumber: 55
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Card"].Body, {
         className: _styles_scss__WEBPACK_IMPORTED_MODULE_9___default.a.body_destaque,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 54
+          lineNumber: 56
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Card"].Title, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 55
+          lineNumber: 57
         },
         __self: this
-      }, "T\xE9cnica Pomodoro"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Card"].Text, {
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
+        href: "",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 56
+          lineNumber: 57
+        },
+        __self: this
+      }, "T\xE9cnica Pomodoro")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Card"].Text, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 58
         },
         __self: this
       }, "Aumente sua produtividade nos estudos com a T\xE9cnica Pomodoro")))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Col"], {
@@ -117392,14 +117588,14 @@ function (_Component) {
         lg: 6,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 62
+          lineNumber: 64
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Card"], {
         className: _styles_scss__WEBPACK_IMPORTED_MODULE_9___default.a.destaques_cartao,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 63
+          lineNumber: 65
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Card"].Img, {
@@ -117408,26 +117604,33 @@ function (_Component) {
         src: "https://d1dh93s7n44ml6.cloudfront.net/blog/wp-content/uploads/2015/09/13062911/Pomodoro-Technique.png",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 64
+          lineNumber: 66
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Card"].Body, {
         className: _styles_scss__WEBPACK_IMPORTED_MODULE_9___default.a.body_destaque,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 65
+          lineNumber: 67
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Card"].Title, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 66
+          lineNumber: 68
         },
         __self: this
-      }, "T\xE9cnica Pomodoro"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Card"].Text, {
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
+        href: "",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 67
+          lineNumber: 68
+        },
+        __self: this
+      }, "T\xE9cnica Pomodoro")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Card"].Text, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 69
         },
         __self: this
       }, "Aumente sua produtividade nos estudos com a T\xE9cnica Pomodoro"))))))));
@@ -117460,6 +117663,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_7__);
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/es/index.js");
+/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../../styles.scss */ "./styles.scss");
+/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_styles_scss__WEBPACK_IMPORTED_MODULE_9__);
 
 
 
@@ -117468,6 +117673,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var _jsxFileName = "D:\\sites\\vestibular\\pages\\elementos\\rodape\\rodape.js";
+
 
 
 
@@ -117498,32 +117704,25 @@ function (_Component) {
     key: "render",
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("footer", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 7
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Container"], {
+        className: _styles_scss__WEBPACK_IMPORTED_MODULE_9___default.a.rodape,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 8
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Row"], {
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Container"], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 9
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Col"], {
-        sm: 6,
-        lg: 3,
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Row"], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 10
         },
         __self: this
-      }, "Logo"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Col"], {
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Col"], {
         sm: 6,
         lg: 3,
         __source: {
@@ -117545,6 +117744,14 @@ function (_Component) {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 13
+        },
+        __self: this
+      }, "Logo"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Col"], {
+        sm: 6,
+        lg: 3,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 14
         },
         __self: this
       }, "Logo"))));
@@ -117658,6 +117865,40 @@ function (_Component) {
           lineNumber: 21
         },
         __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_7__["Carousel"].Item, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 27
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_7__["Carousel"].Caption, {
+        className: _styles_scss__WEBPACK_IMPORTED_MODULE_6___default.a.textSlide,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 29
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h3", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 30
+        },
+        __self: this
+      }, "Enem Inicia inscri\xE7\xF5es"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 31
+        },
+        __self: this
+      }, "Nulla vitae elit libero, a pharetraz augue mollis interdum.")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
+        className: _styles_scss__WEBPACK_IMPORTED_MODULE_6___default.a.imgSlide,
+        src: "/static/img/moca.png",
+        alt: "First slide",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 33
+        },
+        __self: this
       })))));
     }
   }]);
@@ -117666,6 +117907,77 @@ function (_Component) {
 }(react__WEBPACK_IMPORTED_MODULE_5__["Component"]);
 
 /* harmony default export */ __webpack_exports__["default"] = (Topo);
+
+/***/ }),
+
+/***/ "./pages/elementos/topo/logado.js":
+/*!****************************************!*\
+  !*** ./pages/elementos/topo/logado.js ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../styles.scss */ "./styles.scss");
+/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_styles_scss__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/es/index.js");
+
+
+
+
+
+var _jsxFileName = "D:\\sites\\vestibular\\pages\\elementos\\topo\\logado.js";
+
+
+
+
+var Logado =
+/*#__PURE__*/
+function (_Component) {
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(Logado, _Component);
+
+  function Logado(props) {
+    var _this;
+
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Logado);
+
+    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Logado).call(this, props));
+    _this.state = {};
+    return _this;
+  }
+
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Logado, [{
+    key: "render",
+    value: function render() {
+      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("section", {
+        className: _styles_scss__WEBPACK_IMPORTED_MODULE_6___default.a.topologado,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 15
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_7__["Container"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 16
+        },
+        __self: this
+      }, "Logado"));
+    }
+  }]);
+
+  return Logado;
+}(react__WEBPACK_IMPORTED_MODULE_5__["Component"]);
+
+/* harmony default export */ __webpack_exports__["default"] = (Logado);
 
 /***/ }),
 
@@ -117699,6 +118011,24 @@ var _jsxFileName = "D:\\sites\\vestibular\\pages\\elementos\\topo\\menu.js";
 
 
 
+var laranja = {
+  background: '#FF7D0B'
+};
+var azul = {
+  background: '#019ADE'
+};
+var roxo = {
+  background: '#B05ABD'
+};
+var verde = {
+  background: '#02CE6F'
+};
+var marinho = {
+  background: '#24465F'
+};
+var vermelho = {
+  background: '#0080BA'
+};
 
 var Menu =
 /*#__PURE__*/
@@ -117722,21 +118052,61 @@ function (_Component) {
         className: _styles_scss__WEBPACK_IMPORTED_MODULE_8___default.a.menusuperior,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 14
+          lineNumber: 23
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_menuCaixa__WEBPACK_IMPORTED_MODULE_7__["default"], {
-        nome: "Noticias",
+        cor: laranja,
+        nome: "PROVAS",
+        icone: "fas fa-box-open",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 15
+          lineNumber: 24
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_menuCaixa__WEBPACK_IMPORTED_MODULE_7__["default"], {
-        nome: "Noticias",
+        cor: vermelho,
+        nome: "DICAS",
+        icone: "fas fa-box-open",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 16
+          lineNumber: 25
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_menuCaixa__WEBPACK_IMPORTED_MODULE_7__["default"], {
+        cor: azul,
+        nome: "SERVI\xC7OS",
+        icone: "fas fa-box-open",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 26
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_menuCaixa__WEBPACK_IMPORTED_MODULE_7__["default"], {
+        cor: roxo,
+        nome: "VESTIBULARES",
+        icone: "fas fa-box-open",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 27
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_menuCaixa__WEBPACK_IMPORTED_MODULE_7__["default"], {
+        cor: verde,
+        nome: "ENEM",
+        icone: "fas fa-box-open",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 28
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_menuCaixa__WEBPACK_IMPORTED_MODULE_7__["default"], {
+        cor: marinho,
+        nome: "OUTROS",
+        icone: "fas fa-box-open",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 29
         },
         __self: this
       }));
@@ -117798,13 +118168,21 @@ function (_Component) {
     key: "render",
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        style: this.props.cor,
         className: _styles_scss__WEBPACK_IMPORTED_MODULE_6___default.a.menucaixa,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 15
         },
         __self: this
-      }, this.props.nome);
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("i", {
+        className: this.props.icone,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 16
+        },
+        __self: this
+      }), this.props.nome);
     }
   }]);
 
@@ -117832,15 +118210,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var _menu__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./menu */ "./pages/elementos/topo/menu.js");
-/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../styles.scss */ "./styles.scss");
-/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_styles_scss__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/es/index.js");
+/* harmony import */ var _logado__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./logado */ "./pages/elementos/topo/logado.js");
+/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../../styles.scss */ "./styles.scss");
+/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_styles_scss__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/es/index.js");
 
 
 
 
 
 var _jsxFileName = "D:\\sites\\vestibular\\pages\\elementos\\topo\\topo.js";
+
 
 
 
@@ -117864,57 +118244,69 @@ function (_Component) {
   Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Topo, [{
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("header", {
-        className: _styles_scss__WEBPACK_IMPORTED_MODULE_7___default.a.topo,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 14
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Container"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 15
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Row"], {
+      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 16
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Col"], {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_logado__WEBPACK_IMPORTED_MODULE_7__["default"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 17
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("header", {
+        className: _styles_scss__WEBPACK_IMPORTED_MODULE_8___default.a.topo,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 19
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Container"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 20
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Row"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 21
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Col"], {
         sm: 12,
         lg: 4,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 17
+          lineNumber: 22
         },
         __self: this
       }, " ", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
-        className: _styles_scss__WEBPACK_IMPORTED_MODULE_7___default.a.logo,
+        className: _styles_scss__WEBPACK_IMPORTED_MODULE_8___default.a.logo,
         src: "/static/img/logo.png",
         alt: "CyberVestibular",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 17
+          lineNumber: 22
         },
         __self: this
-      }), " "), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Col"], {
+      }), " "), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Col"], {
         sm: 12,
         lg: 8,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 18
+          lineNumber: 23
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_menu__WEBPACK_IMPORTED_MODULE_6__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 18
+          lineNumber: 23
         },
         __self: this
-      })))));
+      }))))));
     }
   }]);
 

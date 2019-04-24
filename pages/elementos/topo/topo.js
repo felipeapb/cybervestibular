@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Menu from "./menu";
+import Logado from "./logado"
 import css from "../../../styles.scss"
+
 
 import { Container,Row, Col } from 'react-bootstrap';
 
@@ -11,6 +13,9 @@ class Topo  extends Component {
     }
     render() { 
         return (
+            <div>
+        <Logado/>
+                       
         <header className={css.topo}>
             <Container>
             <Row>
@@ -19,7 +24,7 @@ class Topo  extends Component {
             </Row>
             </Container>
         </header>
-
+</div>
         )
     }
 }

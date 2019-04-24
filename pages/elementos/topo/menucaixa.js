@@ -12,7 +12,9 @@ class Menucaixa  extends Component {
     }
     render() { 
         return (
-    <div className={css.menucaixa} >
+    <div style={this.props.cor} className={css.menucaixa}  >
+    <i className={this.props.icone}></i>
+
     {this.props.nome}
     </div>
     
