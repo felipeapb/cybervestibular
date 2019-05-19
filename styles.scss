@@ -57,14 +57,14 @@ margin-bottom:10px;
   background: -webkit-linear-gradient(left, rgba(0,130,175,1) 0%,rgba(31,145,185,1) 12%,rgba(146,201,221,0) 350px,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to right, rgba(0,130,175,1) 0%,rgba(31,145,185,1) 12%,rgba(146,201,221,0) 350px,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0082af', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
-   &:before {
+
+  &:before {
     content: "";
     position:absolute;
     height: 35px;
     width: 15px;
     background: rgba(0,130,175,1);
-    margin-left: -30px;
-    
+    margin-left: -30px;    
 }
 
 }
@@ -148,7 +148,9 @@ background:#fff;
     transition: 0.5s;
   }
 }
-
+.logincaixa{
+  margin-left:20px;
+}
 .destaques_cartao {
   
   flex-direction: row !important;
@@ -199,11 +201,21 @@ background:#fff;
 
 }
 @media screen and (max-width: 480px) {
-  .grupoEstados{ 	flex-wrap: wrap;
-}
-.imgSlide{ 
-visibility:hidden
-}
+        .grupoEstados,.menusuperior{ 	flex-wrap: wrap;
+
+      }
+      .imgSlide{ 
+      visibility:hidden
+      }
+      .menucaixa{
+        margin: 0px ;
+ 
+      }
+      .logincaixa{
+        margin-left:90px;
+        margin-bottom: 20px;
+      }
+
 }
 .rodape{
   margin-top:20px;

@@ -1,27 +1,28 @@
-import React, {Component } from 'react';
-import css from "../../../styles.scss"
+import React, { Component } from 'react';
+import {
+  Container, Row, Col, Tooltip, OverlayTrigger,
+} from 'react-bootstrap';
+import css from '../../../styles.scss';
 
 
+class Logado extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { };
+  }
 
-import { Container,Row, Col,Tooltip, OverlayTrigger } from 'react-bootstrap';
-
-class Logado  extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {  }
-    }
-    render() { 
-        return (
-<section className={css.topologado} >
-    <Container>
+  render() {
+    return (
+      <section className={css.topologado}>
+        <Container>
     Logado
-    </Container>    
-    
-    </section>
-    
+        </Container>
 
-        )
-    }
+      </section>
+
+
+    );
+  }
 }
- 
-export default Logado ;
+
+export default Logado;

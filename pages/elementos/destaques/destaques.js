@@ -11,7 +11,7 @@ class Destaques  extends Component {
                 <Row>
                 <Col sm={12} lg={4}>
                     <Card className={css.destaques_cartao}>
-                        <Card.Img st variant="top" src="https://www.tomatotimers.com/IMAGE%20FILE/Infographic.svg" />
+                        <Card.Img  variant="top" src="https://www.tomatotimers.com/IMAGE%20FILE/Infographic.svg" />
                         <Card.Body className={css.body_destaque} >
                             <Card.Title><a href="">Técnica Pomodoro</a></Card.Title>
                             <Card.Text>
@@ -21,7 +21,7 @@ class Destaques  extends Component {
                         </Card>
                     </Col>                    <Col sm={12} lg={4}>
                     <Card className={css.destaques_cartao}>
-                        <Card.Img st variant="top" src="https://www.tomatotimers.com/IMAGE%20FILE/Infographic.svg" />
+                        <Card.Img  variant="top" src="https://www.tomatotimers.com/IMAGE%20FILE/Infographic.svg" />
                         <Card.Body className={css.body_destaque} >
                             <Card.Title><a href="">Técnica Pomodoro</a></Card.Title>
                             <Card.Text>
@@ -32,7 +32,7 @@ class Destaques  extends Component {
                     </Col>
                     <Col sm={12} lg={4}>
                     <Card className={css.destaques_cartao}>
-                        <Card.Img st variant="top" src="https://www.tomatotimers.com/IMAGE%20FILE/Infographic.svg" />
+                        <Card.Img  variant="top" src="https://www.tomatotimers.com/IMAGE%20FILE/Infographic.svg" />
                         <Card.Body className={css.body_destaque} >
                             <Card.Title><a href="">Técnica Pomodoro</a></Card.Title>
                             <Card.Text>

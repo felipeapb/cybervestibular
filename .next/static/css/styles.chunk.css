@@ -151,6 +151,9 @@ body {
     color: #fff;
     transition: 0.5s; }
 
+._3E_b1nIEQiKyN4PU9uueyl {
+  margin-left: 20px; }
+
 ._1Gz35NOjSPtDNdbCtxhYqc {
   flex-direction: row !important;
   align-items: center;
@@ -197,10 +200,15 @@ body {
     font-size: 1rem !important; }
 
 @media screen and (max-width: 480px) {
-  ._24fLHaf_HqV34hf1MTjHvv {
+  ._24fLHaf_HqV34hf1MTjHvv, ._13MX1e2MiwZU_LoOc7k5c6 {
     flex-wrap: wrap; }
   ._1CdF7xg3NymdUWtM6Fa-U- {
-    visibility: hidden; } }
+    visibility: hidden; }
+  ._2-e20iTUom9lk37uPhzrTs {
+    margin: 0px; }
+  ._3E_b1nIEQiKyN4PU9uueyl {
+    margin-left: 90px;
+    margin-bottom: 20px; } }
 
 ._1PlDJ-IG2auJ9GnUQOOf30 {
   margin-top: 20px; }

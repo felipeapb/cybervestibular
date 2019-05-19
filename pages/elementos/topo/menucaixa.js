@@ -1,26 +1,27 @@
-import React, {Component } from 'react';
-import css from "../../../styles.scss"
+import React, { Component } from 'react';
+import {
+  Container, Row, Col, Tooltip, OverlayTrigger,
+} from 'react-bootstrap';
+import css from '../../../styles.scss';
 
 
+class Menucaixa extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { };
+  }
 
-import { Container,Row, Col,Tooltip, OverlayTrigger } from 'react-bootstrap';
+  render() {
+    return (
+      <div style={this.props.cor} className={css.menucaixa}>
+        <i className={this.props.icone} />
 
-class Menucaixa  extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {  }
-    }
-    render() { 
-        return (
-    <div style={this.props.cor} className={css.menucaixa}  >
-    <i className={this.props.icone}></i>
+        {this.props.nome}
+      </div>
 
-    {this.props.nome}
-    </div>
-    
 
-        )
-    }
+    );
+  }
 }
- 
-export default Menucaixa ;
+
+export default Menucaixa;

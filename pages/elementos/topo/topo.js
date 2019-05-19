@@ -1,32 +1,36 @@
 import React, { Component } from 'react';
-import Menu from "./menu";
-import Logado from "./logado"
-import css from "../../../styles.scss"
+import { Container, Row, Col } from 'react-bootstrap';
+import Menu from './menu';
+import Logado from './logado';
+import css from '../../../styles.scss';
 
 
-import { Container,Row, Col } from 'react-bootstrap';
+class Topo extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { };
+  }
 
-class Topo  extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {  }
-    }
-    render() { 
-        return (
-            <div>
-        <Logado/>
-                       
+  render() {
+    return (
+      <div>
+        <Logado />
+
         <header className={css.topo}>
-            <Container>
+          <Container>
             <Row>
-                <Col sm={12} lg={4}> <img className={css.logo} src="/static/img/logo.png" alt="CyberVestibular" /> </Col>
-                <Col sm={12} lg={8}><Menu/></Col>                
+              <Col sm={12} lg={4}>
+                {' '}
+                <img className={css.logo} src="/static/img/logo.png" alt="CyberVestibular" />
+                {' '}
+              </Col>
+              <Col sm={12} lg={8}><Menu /></Col>
             </Row>
-            </Container>
+          </Container>
         </header>
-</div>
-        )
-    }
+      </div>
+    );
+  }
 }
- 
-export default Topo ;
+
+export default Topo;

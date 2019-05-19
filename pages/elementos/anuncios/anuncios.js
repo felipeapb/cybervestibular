@@ -6,12 +6,7 @@ class Anuncios  extends Component {
         return ( 
             <Container>
                 
-                <ins className="adsbygoogle"
-                    data-ad-client="ca-pub-6710264445240599"
-                    data-ad-slot="1429160537"></ins>
-                {<script>
-                (adsbygoogle = window.adsbygoogle || []).push({});
-                </script>}
+           sem ads por euqnanto
             </Container>
 );
     }

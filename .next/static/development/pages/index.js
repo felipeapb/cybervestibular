@@ -115985,22 +115985,7 @@ function (_Component) {
           lineNumber: 7
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("ins", {
-        className: "adsbygoogle",
-        "data-ad-client": "ca-pub-6710264445240599",
-        "data-ad-slot": "1429160537",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 9
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("script", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 12
-        },
-        __self: this
-      }, "(adsbygoogle = window.adsbygoogle || []).push(", ");"));
+      }, "sem ads por euqnanto");
     }
   }]);
 
@@ -116067,7 +116052,7 @@ function (_Component) {
     _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, (_getPrototypeOf2 = Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Autobusca)).call.apply(_getPrototypeOf2, [this].concat(args)));
 
     Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "state", {
-      curso: null
+      curso: undefined
     });
 
     return _this;
@@ -116119,7 +116104,7 @@ function (_Component) {
           lineNumber: 18
         },
         __self: this
-      }, this.state.curso));
+      }, "Pesquisando por", this.state.curso));
     }
   }]);
 
@@ -116224,7 +116209,6 @@ function (_Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Card"].Img, {
-        st: true,
         variant: "top",
         src: "https://www.tomatotimers.com/IMAGE%20FILE/Infographic.svg",
         __source: {
@@ -116274,7 +116258,6 @@ function (_Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Card"].Img, {
-        st: true,
         variant: "top",
         src: "https://www.tomatotimers.com/IMAGE%20FILE/Infographic.svg",
         __source: {
@@ -116324,7 +116307,6 @@ function (_Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Card"].Img, {
-        st: true,
         variant: "top",
         src: "https://www.tomatotimers.com/IMAGE%20FILE/Infographic.svg",
         __source: {
@@ -116566,9 +116548,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../styles.scss */ "./styles.scss");
-/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_styles_scss__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/es/index.js");
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/es/index.js");
+/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../styles.scss */ "./styles.scss");
+/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_styles_scss__WEBPACK_IMPORTED_MODULE_7__);
 
 
 
@@ -116598,10 +116580,10 @@ function (_Component) {
     key: "render",
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: _styles_scss__WEBPACK_IMPORTED_MODULE_6___default.a.caixaestado,
+        className: _styles_scss__WEBPACK_IMPORTED_MODULE_7___default.a.caixaestado,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 15
+          lineNumber: 16
         },
         __self: this
       }, this.props.siglas);
@@ -116683,7 +116665,7 @@ function IndexPage(_ref) {
     rel: "stylesheet",
     href: "https://use.fontawesome.com/releases/v5.8.1/css/all.css",
     integrity: "sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf",
-    crossorigin: "anonymous",
+    crossOrigin: "anonymous",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15
@@ -116693,7 +116675,7 @@ function IndexPage(_ref) {
     rel: "stylesheet",
     href: "https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css",
     integrity: "sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T",
-    crossorigin: "anonymous",
+    crossOrigin: "anonymous",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 17
@@ -116820,7 +116802,6 @@ function (_Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Card"].Img, {
-        st: true,
         variant: "top",
         src: "https://hp.imguol.com.br/c/home/11/2018/03/16/bernardinho-se-emociona-em-homenagem-a-bebeto-de-freitas-antes-de-sesc-x-pinheiros-pela-superliga-1521250626768_200x140.jpg",
         __source: {
@@ -116868,7 +116849,6 @@ function (_Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Card"].Img, {
-        st: true,
         variant: "top",
         src: "https://hp.imguol.com.br/c/home/11/2018/03/16/bernardinho-se-emociona-em-homenagem-a-bebeto-de-freitas-antes-de-sesc-x-pinheiros-pela-superliga-1521250626768_200x140.jpg",
         __source: {
@@ -116916,7 +116896,6 @@ function (_Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Card"].Img, {
-        st: true,
         variant: "top",
         src: "https://hp.imguol.com.br/c/home/11/2018/03/16/bernardinho-se-emociona-em-homenagem-a-bebeto-de-freitas-antes-de-sesc-x-pinheiros-pela-superliga-1521250626768_200x140.jpg",
         __source: {
@@ -116964,7 +116943,6 @@ function (_Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Card"].Img, {
-        st: true,
         variant: "top",
         src: "https://hp.imguol.com.br/c/home/11/2018/03/16/bernardinho-se-emociona-em-homenagem-a-bebeto-de-freitas-antes-de-sesc-x-pinheiros-pela-superliga-1521250626768_200x140.jpg",
         __source: {
@@ -117110,7 +117088,6 @@ function (_Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Card"].Img, {
-        st: true,
         variant: "top",
         src: "https://hp.imguol.com.br/c/home/07/2018/09/11/o-grande-circo-mistico-de-caca-diegues-foi-selecionado-para-disputar-uma-indicacao-ao-oscar-1536711612309_200x140.jpg",
         __source: {
@@ -117151,7 +117128,6 @@ function (_Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Card"].Img, {
-        st: true,
         variant: "top",
         src: "https://hp.imguol.com.br/c/home/07/2018/09/11/o-grande-circo-mistico-de-caca-diegues-foi-selecionado-para-disputar-uma-indicacao-ao-oscar-1536711612309_200x140.jpg",
         __source: {
@@ -117191,22 +117167,7 @@ function (_Component) {
           lineNumber: 117
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("ins", {
-        className: "adsbygoogle",
-        "data-ad-client": "ca-pub-6710264445240599",
-        "data-ad-slot": "7723994197",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 118
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("script", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 121
-        },
-        __self: this
-      }, "(adsbygoogle = window.adsbygoogle || []).push(", ");"))));
+      }), "sem ads")));
     }
   }]);
 
@@ -117268,14 +117229,14 @@ function (_Component) {
         className: _styles_scss__WEBPACK_IMPORTED_MODULE_7___default.a.itemProva,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 12
+          lineNumber: 13
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
         href: this.props.url,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 12
+          lineNumber: 13
         },
         __self: this
       }, this.props.nome));
@@ -117781,9 +117742,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../styles.scss */ "./styles.scss");
-/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_styles_scss__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/es/index.js");
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/es/index.js");
+/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../styles.scss */ "./styles.scss");
+/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_styles_scss__WEBPACK_IMPORTED_MODULE_7__);
 
 
 
@@ -117813,90 +117774,90 @@ function (_Component) {
     key: "render",
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("section", {
-        className: _styles_scss__WEBPACK_IMPORTED_MODULE_6___default.a.slide,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 12
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_7__["Container"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 13
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_7__["Carousel"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 14
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_7__["Carousel"].Item, {
+        className: _styles_scss__WEBPACK_IMPORTED_MODULE_7___default.a.slide,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 15
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_7__["Carousel"].Caption, {
-        className: _styles_scss__WEBPACK_IMPORTED_MODULE_6___default.a.textSlide,
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_6__["Container"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 16
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_6__["Carousel"], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 17
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h3", {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_6__["Carousel"].Item, {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 18
         },
         __self: this
-      }, "Enem Inicia inscri\xE7\xF5es"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_6__["Carousel"].Caption, {
+        className: _styles_scss__WEBPACK_IMPORTED_MODULE_7___default.a.textSlide,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 19
-        },
-        __self: this
-      }, "Nulla vitae elit libero, a pharetraz augue mollis interdum.")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
-        className: _styles_scss__WEBPACK_IMPORTED_MODULE_6___default.a.imgSlide,
-        src: "/static/img/moca.png",
-        alt: "First slide",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 21
-        },
-        __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_7__["Carousel"].Item, {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 27
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_7__["Carousel"].Caption, {
-        className: _styles_scss__WEBPACK_IMPORTED_MODULE_6___default.a.textSlide,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 29
+          lineNumber: 20
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h3", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 30
+          lineNumber: 21
         },
         __self: this
       }, "Enem Inicia inscri\xE7\xF5es"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 31
+          lineNumber: 22
         },
         __self: this
       }, "Nulla vitae elit libero, a pharetraz augue mollis interdum.")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
-        className: _styles_scss__WEBPACK_IMPORTED_MODULE_6___default.a.imgSlide,
+        className: _styles_scss__WEBPACK_IMPORTED_MODULE_7___default.a.imgSlide,
         src: "/static/img/moca.png",
         alt: "First slide",
         __source: {
           fileName: _jsxFileName,
+          lineNumber: 24
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_6__["Carousel"].Item, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 30
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_6__["Carousel"].Caption, {
+        className: _styles_scss__WEBPACK_IMPORTED_MODULE_7___default.a.textSlide,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 32
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h3", {
+        __source: {
+          fileName: _jsxFileName,
           lineNumber: 33
+        },
+        __self: this
+      }, "Enem Inicia inscri\xE7\xF5es"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 34
+        },
+        __self: this
+      }, "Nulla vitae elit libero, a pharetraz augue mollis interdum.")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
+        className: _styles_scss__WEBPACK_IMPORTED_MODULE_7___default.a.imgSlide,
+        src: "/static/img/moca.png",
+        alt: "First slide",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 36
         },
         __self: this
       })))));
@@ -117926,9 +117887,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../styles.scss */ "./styles.scss");
-/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_styles_scss__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/es/index.js");
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/es/index.js");
+/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../styles.scss */ "./styles.scss");
+/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_styles_scss__WEBPACK_IMPORTED_MODULE_7__);
 
 
 
@@ -117958,16 +117919,16 @@ function (_Component) {
     key: "render",
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("section", {
-        className: _styles_scss__WEBPACK_IMPORTED_MODULE_6___default.a.topologado,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 15
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_7__["Container"], {
+        className: _styles_scss__WEBPACK_IMPORTED_MODULE_7___default.a.topologado,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 16
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_6__["Container"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 17
         },
         __self: this
       }, "Logado"));
@@ -118029,6 +117990,9 @@ var marinho = {
 var vermelho = {
   background: '#0080BA'
 };
+var amarelo = {
+  background: '#f1c40f'
+};
 
 var Menu =
 /*#__PURE__*/
@@ -118041,27 +118005,41 @@ function (_Component) {
     Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Menu);
 
     _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Menu).call(this, props));
-    _this.state = {};
+    _this.state = {
+      isLogin: false
+    };
     return _this;
   }
 
   Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Menu, [{
+    key: "handleClick",
+    value: function handleClick() {
+      this.setState(function (state) {
+        return {
+          isLogin: !state.isLogin
+        };
+      });
+      console.log(this.state.isLogin);
+    }
+  }, {
     key: "render",
     value: function render() {
+      var _this2 = this;
+
       return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("nav", {
         className: _styles_scss__WEBPACK_IMPORTED_MODULE_8___default.a.menusuperior,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 23
+          lineNumber: 30
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_menuCaixa__WEBPACK_IMPORTED_MODULE_7__["default"], {
         cor: laranja,
-        nome: "PROVAS",
+        nome: "ESTUDOS",
         icone: "fas fa-box-open",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 24
+          lineNumber: 32
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_menuCaixa__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -118070,7 +118048,7 @@ function (_Component) {
         icone: "fas fa-box-open",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 25
+          lineNumber: 33
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_menuCaixa__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -118079,7 +118057,7 @@ function (_Component) {
         icone: "fas fa-box-open",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 26
+          lineNumber: 34
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_menuCaixa__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -118088,7 +118066,7 @@ function (_Component) {
         icone: "fas fa-box-open",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 27
+          lineNumber: 35
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_menuCaixa__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -118097,19 +118075,39 @@ function (_Component) {
         icone: "fas fa-box-open",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 28
+          lineNumber: 36
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_menuCaixa__WEBPACK_IMPORTED_MODULE_7__["default"], {
-        cor: marinho,
-        nome: "OUTROS",
+        cor: amarelo,
+        nome: "ENEM",
         icone: "fas fa-box-open",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 29
+          lineNumber: 37
         },
         __self: this
-      }));
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
+        className: _styles_scss__WEBPACK_IMPORTED_MODULE_8___default.a.logincaixa,
+        onClick: function onClick(e) {
+          return _this2.handleClick();
+        },
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 39
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_menuCaixa__WEBPACK_IMPORTED_MODULE_7__["default"], {
+        className: _styles_scss__WEBPACK_IMPORTED_MODULE_8___default.a.logincaixa,
+        cor: marinho,
+        nome: "LOGIN",
+        icone: "fas fa-box-open",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 40
+        },
+        __self: this
+      })));
     }
   }]);
 
@@ -118136,9 +118134,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../styles.scss */ "./styles.scss");
-/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_styles_scss__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/es/index.js");
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/es/index.js");
+/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../styles.scss */ "./styles.scss");
+/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_styles_scss__WEBPACK_IMPORTED_MODULE_7__);
 
 
 
@@ -118169,17 +118167,17 @@ function (_Component) {
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         style: this.props.cor,
-        className: _styles_scss__WEBPACK_IMPORTED_MODULE_6___default.a.menucaixa,
+        className: _styles_scss__WEBPACK_IMPORTED_MODULE_7___default.a.menucaixa,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 15
+          lineNumber: 16
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("i", {
         className: this.props.icone,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 16
+          lineNumber: 17
         },
         __self: this
       }), this.props.nome);
@@ -118209,11 +118207,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _menu__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./menu */ "./pages/elementos/topo/menu.js");
-/* harmony import */ var _logado__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./logado */ "./pages/elementos/topo/logado.js");
-/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../../styles.scss */ "./styles.scss");
-/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_styles_scss__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/es/index.js");
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/es/index.js");
+/* harmony import */ var _menu__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./menu */ "./pages/elementos/topo/menu.js");
+/* harmony import */ var _logado__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./logado */ "./pages/elementos/topo/logado.js");
+/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../../styles.scss */ "./styles.scss");
+/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_styles_scss__WEBPACK_IMPORTED_MODULE_9__);
 
 
 
@@ -118250,32 +118248,32 @@ function (_Component) {
           lineNumber: 16
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_logado__WEBPACK_IMPORTED_MODULE_7__["default"], {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_logado__WEBPACK_IMPORTED_MODULE_8__["default"], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 17
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("header", {
-        className: _styles_scss__WEBPACK_IMPORTED_MODULE_8___default.a.topo,
+        className: _styles_scss__WEBPACK_IMPORTED_MODULE_9___default.a.topo,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 19
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Container"], {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_6__["Container"], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 20
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Row"], {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_6__["Row"], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 21
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Col"], {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_6__["Col"], {
         sm: 12,
         lg: 4,
         __source: {
@@ -118283,27 +118281,27 @@ function (_Component) {
           lineNumber: 22
         },
         __self: this
-      }, " ", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
-        className: _styles_scss__WEBPACK_IMPORTED_MODULE_8___default.a.logo,
+      }, ' ', react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
+        className: _styles_scss__WEBPACK_IMPORTED_MODULE_9___default.a.logo,
         src: "/static/img/logo.png",
         alt: "CyberVestibular",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 22
+          lineNumber: 24
         },
         __self: this
-      }), " "), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Col"], {
+      }), ' '), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_6__["Col"], {
         sm: 12,
         lg: 8,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 23
+          lineNumber: 27
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_menu__WEBPACK_IMPORTED_MODULE_6__["default"], {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_menu__WEBPACK_IMPORTED_MODULE_7__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 23
+          lineNumber: 27
         },
         __self: this
       }))))));
@@ -118334,16 +118332,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/es/index.js");
-/* harmony import */ var _elementos_slide_slide__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./elementos/slide/slide */ "./pages/elementos/slide/slide.js");
-/* harmony import */ var _elementos_topo_topo__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./elementos/topo/topo */ "./pages/elementos/topo/topo.js");
-/* harmony import */ var _elementos_estados_estados__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./elementos/estados/estados */ "./pages/elementos/estados/estados.js");
-/* harmony import */ var _elementos_destaques_destaques__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./elementos/destaques/destaques */ "./pages/elementos/destaques/destaques.js");
-/* harmony import */ var _elementos_anuncios_anuncios__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./elementos/anuncios/anuncios */ "./pages/elementos/anuncios/anuncios.js");
-/* harmony import */ var _elementos_material_material__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./elementos/material/material */ "./pages/elementos/material/material.js");
-/* harmony import */ var _elementos_rodape_rodape__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./elementos/rodape/rodape */ "./pages/elementos/rodape/rodape.js");
-/* harmony import */ var _elementos_noticias_noticias__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./elementos/noticias/noticias */ "./pages/elementos/noticias/noticias.js");
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_15__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _elementos_slide_slide__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./elementos/slide/slide */ "./pages/elementos/slide/slide.js");
+/* harmony import */ var _elementos_topo_topo__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./elementos/topo/topo */ "./pages/elementos/topo/topo.js");
+/* harmony import */ var _elementos_estados_estados__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./elementos/estados/estados */ "./pages/elementos/estados/estados.js");
+/* harmony import */ var _elementos_destaques_destaques__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./elementos/destaques/destaques */ "./pages/elementos/destaques/destaques.js");
+/* harmony import */ var _elementos_anuncios_anuncios__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./elementos/anuncios/anuncios */ "./pages/elementos/anuncios/anuncios.js");
+/* harmony import */ var _elementos_material_material__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./elementos/material/material */ "./pages/elementos/material/material.js");
+/* harmony import */ var _elementos_rodape_rodape__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./elementos/rodape/rodape */ "./pages/elementos/rodape/rodape.js");
+/* harmony import */ var _elementos_noticias_noticias__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./elementos/noticias/noticias */ "./pages/elementos/noticias/noticias.js");
 /* harmony import */ var _elementos_head_head__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./elementos/head/head */ "./pages/elementos/head/head.js");
 
 
@@ -118382,10 +118380,10 @@ function (_Component) {
   Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(index, [{
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("fragment", {
+      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 22
+          lineNumber: 23
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_elementos_head_head__WEBPACK_IMPORTED_MODULE_16__["default"], {
@@ -118393,55 +118391,55 @@ function (_Component) {
         descricao: "Um novo portal de vestibular",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 23
+          lineNumber: 24
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_elementos_topo_topo__WEBPACK_IMPORTED_MODULE_8__["default"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 27
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_elementos_slide_slide__WEBPACK_IMPORTED_MODULE_7__["default"], {
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_elementos_topo_topo__WEBPACK_IMPORTED_MODULE_9__["default"], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 28
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_elementos_estados_estados__WEBPACK_IMPORTED_MODULE_9__["default"], {
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_elementos_slide_slide__WEBPACK_IMPORTED_MODULE_8__["default"], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 29
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_elementos_destaques_destaques__WEBPACK_IMPORTED_MODULE_10__["default"], {
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_elementos_estados_estados__WEBPACK_IMPORTED_MODULE_10__["default"], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 30
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_elementos_noticias_noticias__WEBPACK_IMPORTED_MODULE_14__["default"], {
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_elementos_destaques_destaques__WEBPACK_IMPORTED_MODULE_11__["default"], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 31
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_elementos_anuncios_anuncios__WEBPACK_IMPORTED_MODULE_11__["default"], {
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_elementos_noticias_noticias__WEBPACK_IMPORTED_MODULE_15__["default"], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 32
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_elementos_material_material__WEBPACK_IMPORTED_MODULE_12__["default"], {
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_elementos_anuncios_anuncios__WEBPACK_IMPORTED_MODULE_12__["default"], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 33
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_elementos_rodape_rodape__WEBPACK_IMPORTED_MODULE_13__["default"], {
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_elementos_material_material__WEBPACK_IMPORTED_MODULE_13__["default"], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 34
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_elementos_rodape_rodape__WEBPACK_IMPORTED_MODULE_14__["default"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 35
         },
         __self: this
       }));
